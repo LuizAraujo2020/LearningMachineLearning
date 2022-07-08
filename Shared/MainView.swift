@@ -12,12 +12,12 @@ struct MainView: View {
         TabView {
             ContentView()
                 .tabItem {
-                    Label("Menu", systemImage: "list.dash")
+                    Label(Constants.texts.tabItemMenu, systemImage: "list.dash")
                 }
 
             TextScanner()
                 .tabItem {
-                    Label("Text", systemImage: "text.magnifyingglass")
+                    Label(Constants.texts.tabItemText, systemImage: "text.magnifyingglass")
                 }
         }
     }

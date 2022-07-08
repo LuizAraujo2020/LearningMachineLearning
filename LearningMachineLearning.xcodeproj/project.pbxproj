@@ -41,6 +41,10 @@
 		6F8FB40E2877C72400AEF925 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB40C2877C72400AEF925 /* ButtonView.swift */; };
 		6F8FB4102877CD2600AEF925 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB40F2877CD2600AEF925 /* Constants.swift */; };
 		6F8FB4112877CD2600AEF925 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB40F2877CD2600AEF925 /* Constants.swift */; };
+		6F8FB4142878615200AEF925 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB4132878615200AEF925 /* Enums.swift */; };
+		6F8FB4152878615200AEF925 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB4132878615200AEF925 /* Enums.swift */; };
+		6F8FB4172878723600AEF925 /* LinguisticTagger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB4162878723600AEF925 /* LinguisticTagger.swift */; };
+		6F8FB4182878723600AEF925 /* LinguisticTagger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB4162878723600AEF925 /* LinguisticTagger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +87,8 @@
 		6F8FB4052877BD1800AEF925 /* TextRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognition.swift; sourceTree = "<group>"; };
 		6F8FB40C2877C72400AEF925 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		6F8FB40F2877CD2600AEF925 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6F8FB4132878615200AEF925 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		6F8FB4162878723600AEF925 /* LinguisticTagger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinguisticTagger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,13 +137,14 @@
 		6F137B832875018100F3C4CA /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				6F137B892875018300F3C4CA /* Assets.xcassets */,
 				6F137B862875018100F3C4CA /* LearningMachineLearningApp.swift */,
+				6F137B842875018100F3C4CA /* LearningMachineLearning.xcdatamodeld */,
+				6F137B882875018100F3C4CA /* Persistence.swift */,
 				6F137B872875018100F3C4CA /* ContentView.swift */,
 				6F137BD428774FD600F3C4CA /* MainView.swift */,
+				6F8FB4122878611400AEF925 /* Utilities */,
 				6F137BD228774FAE00F3C4CA /* Screens */,
-				6F137B882875018100F3C4CA /* Persistence.swift */,
-				6F137B892875018300F3C4CA /* Assets.xcassets */,
-				6F137B842875018100F3C4CA /* LearningMachineLearning.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -182,7 +189,7 @@
 		6F137BD228774FAE00F3C4CA /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				6F8FB40B2877C6DC00AEF925 /* Commons */,
+				6F8FB40B2877C6DC00AEF925 /* Components */,
 				6F137BD328774FB800F3C4CA /* TextScanner */,
 			);
 			path = Screens;
@@ -191,8 +198,8 @@
 		6F137BD328774FB800F3C4CA /* TextScanner */ = {
 			isa = PBXGroup;
 			children = (
-				6F8FB4012877BCD800AEF925 /* Controllers */,
 				6F8FB3FE2877BCAE00AEF925 /* Views */,
+				6F8FB4012877BCD800AEF925 /* Controllers */,
 				6F8FB3FA2877BC0300AEF925 /* Models */,
 			);
 			path = TextScanner;
@@ -220,17 +227,26 @@
 			children = (
 				6F8FB4022877BCF200AEF925 /* ScannerView.swift */,
 				6F8FB4052877BD1800AEF925 /* TextRecognition.swift */,
+				6F8FB4162878723600AEF925 /* LinguisticTagger.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		6F8FB40B2877C6DC00AEF925 /* Commons */ = {
+		6F8FB40B2877C6DC00AEF925 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				6F8FB40C2877C72400AEF925 /* ButtonView.swift */,
-				6F8FB40F2877CD2600AEF925 /* Constants.swift */,
 			);
-			path = Commons;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6F8FB4122878611400AEF925 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6F8FB40F2877CD2600AEF925 /* Constants.swift */,
+				6F8FB4132878615200AEF925 /* Enums.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,9 +411,11 @@
 				6F137BB12875018400F3C4CA /* LearningMachineLearningApp.swift in Sources */,
 				6F8FB3FC2877BC7900AEF925 /* TextScannerModel.swift in Sources */,
 				6F137BD528774FD600F3C4CA /* MainView.swift in Sources */,
+				6F8FB4172878723600AEF925 /* LinguisticTagger.swift in Sources */,
 				6F8FB40D2877C72400AEF925 /* ButtonView.swift in Sources */,
 				6F137BB52875018400F3C4CA /* Persistence.swift in Sources */,
 				6F137BAF2875018400F3C4CA /* LearningMachineLearning.xcdatamodeld in Sources */,
+				6F8FB4142878615200AEF925 /* Enums.swift in Sources */,
 				6F8FB4062877BD1800AEF925 /* TextRecognition.swift in Sources */,
 				6F137BD028774F6B00F3C4CA /* TextScanner.swift in Sources */,
 				6F137BB32875018400F3C4CA /* ContentView.swift in Sources */,
@@ -414,9 +432,11 @@
 				6F137BB22875018400F3C4CA /* LearningMachineLearningApp.swift in Sources */,
 				6F8FB3FD2877BC8100AEF925 /* TextScannerModel.swift in Sources */,
 				6F137BD628774FD600F3C4CA /* MainView.swift in Sources */,
+				6F8FB4182878723600AEF925 /* LinguisticTagger.swift in Sources */,
 				6F8FB40E2877C72400AEF925 /* ButtonView.swift in Sources */,
 				6F137BB62875018400F3C4CA /* Persistence.swift in Sources */,
 				6F137BB02875018400F3C4CA /* LearningMachineLearning.xcdatamodeld in Sources */,
+				6F8FB4152878615200AEF925 /* Enums.swift in Sources */,
 				6F8FB4072877BD1800AEF925 /* TextRecognition.swift in Sources */,
 				6F137BD128774F6B00F3C4CA /* TextScanner.swift in Sources */,
 				6F137BB42875018400F3C4CA /* ContentView.swift in Sources */,

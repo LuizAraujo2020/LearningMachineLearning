@@ -18,4 +18,9 @@ class TextItem: Identifiable {
     init() {
         id = UUID().uuidString
     }
+    
+    init(text: String) {
+        id = UUID().uuidString
+        self.text = text
+    }
 }

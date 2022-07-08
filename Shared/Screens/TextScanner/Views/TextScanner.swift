@@ -30,7 +30,7 @@ struct TextScanner: View {
                 }
                 
             }
-            .navigationTitle("Text Scanner")
+            .navigationTitle(Constants.texts.navigationTitleTextScannerView)
             .navigationBarItems(trailing: Button(action: {
                 guard !isRecognizing else { return }
                 showScanner = true
@@ -40,7 +40,7 @@ struct TextScanner: View {
                         .renderingMode(.template)
                         .foregroundColor(.white)
                     
-                    Text("Scan")
+                    Text(Constants.texts.buttonScanTextScannerView)
                         .foregroundColor(.white)
                 }
                 .padding(.horizontal, 16)
