@@ -21,6 +21,26 @@
 		6F137BB62875018400F3C4CA /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F137B882875018100F3C4CA /* Persistence.swift */; };
 		6F137BB72875018400F3C4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F137B892875018300F3C4CA /* Assets.xcassets */; };
 		6F137BB82875018400F3C4CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F137B892875018300F3C4CA /* Assets.xcassets */; };
+		6F137BD028774F6B00F3C4CA /* TextScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F137BCF28774F6B00F3C4CA /* TextScanner.swift */; };
+		6F137BD128774F6B00F3C4CA /* TextScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F137BCF28774F6B00F3C4CA /* TextScanner.swift */; };
+		6F137BD528774FD600F3C4CA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F137BD428774FD600F3C4CA /* MainView.swift */; };
+		6F137BD628774FD600F3C4CA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F137BD428774FD600F3C4CA /* MainView.swift */; };
+		6F137BD82877562000F3C4CA /* TextPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F137BD72877562000F3C4CA /* TextPreviewView.swift */; };
+		6F137BD92877562000F3C4CA /* TextPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F137BD72877562000F3C4CA /* TextPreviewView.swift */; };
+		6F137BDA2877562000F3C4CA /* TextPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F137BD72877562000F3C4CA /* TextPreviewView.swift */; };
+		6F137BDB2877562000F3C4CA /* TextPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F137BD72877562000F3C4CA /* TextPreviewView.swift */; };
+		6F8FB3FC2877BC7900AEF925 /* TextScannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB3FB2877BC7900AEF925 /* TextScannerModel.swift */; };
+		6F8FB3FD2877BC8100AEF925 /* TextScannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB3FB2877BC7900AEF925 /* TextScannerModel.swift */; };
+		6F8FB3FF2877BCD000AEF925 /* TextScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F137BCF28774F6B00F3C4CA /* TextScanner.swift */; };
+		6F8FB4002877BCD000AEF925 /* TextScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F137BCF28774F6B00F3C4CA /* TextScanner.swift */; };
+		6F8FB4032877BCF200AEF925 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB4022877BCF200AEF925 /* ScannerView.swift */; };
+		6F8FB4042877BCF200AEF925 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB4022877BCF200AEF925 /* ScannerView.swift */; };
+		6F8FB4062877BD1800AEF925 /* TextRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB4052877BD1800AEF925 /* TextRecognition.swift */; };
+		6F8FB4072877BD1800AEF925 /* TextRecognition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB4052877BD1800AEF925 /* TextRecognition.swift */; };
+		6F8FB40D2877C72400AEF925 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB40C2877C72400AEF925 /* ButtonView.swift */; };
+		6F8FB40E2877C72400AEF925 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB40C2877C72400AEF925 /* ButtonView.swift */; };
+		6F8FB4102877CD2600AEF925 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB40F2877CD2600AEF925 /* Constants.swift */; };
+		6F8FB4112877CD2600AEF925 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8FB40F2877CD2600AEF925 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +75,14 @@
 		6F137BA72875018400F3C4CA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F137BAB2875018400F3C4CA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		6F137BAD2875018400F3C4CA /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		6F137BCF28774F6B00F3C4CA /* TextScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScanner.swift; sourceTree = "<group>"; };
+		6F137BD428774FD600F3C4CA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6F137BD72877562000F3C4CA /* TextPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextPreviewView.swift; sourceTree = "<group>"; };
+		6F8FB3FB2877BC7900AEF925 /* TextScannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScannerModel.swift; sourceTree = "<group>"; };
+		6F8FB4022877BCF200AEF925 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		6F8FB4052877BD1800AEF925 /* TextRecognition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognition.swift; sourceTree = "<group>"; };
+		6F8FB40C2877C72400AEF925 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		6F8FB40F2877CD2600AEF925 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +133,8 @@
 			children = (
 				6F137B862875018100F3C4CA /* LearningMachineLearningApp.swift */,
 				6F137B872875018100F3C4CA /* ContentView.swift */,
+				6F137BD428774FD600F3C4CA /* MainView.swift */,
+				6F137BD228774FAE00F3C4CA /* Screens */,
 				6F137B882875018100F3C4CA /* Persistence.swift */,
 				6F137B892875018300F3C4CA /* Assets.xcassets */,
 				6F137B842875018100F3C4CA /* LearningMachineLearning.xcdatamodeld */,
@@ -147,6 +177,60 @@
 				6F137BAD2875018400F3C4CA /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		6F137BD228774FAE00F3C4CA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				6F8FB40B2877C6DC00AEF925 /* Commons */,
+				6F137BD328774FB800F3C4CA /* TextScanner */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		6F137BD328774FB800F3C4CA /* TextScanner */ = {
+			isa = PBXGroup;
+			children = (
+				6F8FB4012877BCD800AEF925 /* Controllers */,
+				6F8FB3FE2877BCAE00AEF925 /* Views */,
+				6F8FB3FA2877BC0300AEF925 /* Models */,
+			);
+			path = TextScanner;
+			sourceTree = "<group>";
+		};
+		6F8FB3FA2877BC0300AEF925 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F8FB3FB2877BC7900AEF925 /* TextScannerModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F8FB3FE2877BCAE00AEF925 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F137BCF28774F6B00F3C4CA /* TextScanner.swift */,
+				6F137BD72877562000F3C4CA /* TextPreviewView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6F8FB4012877BCD800AEF925 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F8FB4022877BCF200AEF925 /* ScannerView.swift */,
+				6F8FB4052877BD1800AEF925 /* TextRecognition.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6F8FB40B2877C6DC00AEF925 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				6F8FB40C2877C72400AEF925 /* ButtonView.swift */,
+				6F8FB40F2877CD2600AEF925 /* Constants.swift */,
+			);
+			path = Commons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,10 +391,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8FB4032877BCF200AEF925 /* ScannerView.swift in Sources */,
 				6F137BB12875018400F3C4CA /* LearningMachineLearningApp.swift in Sources */,
+				6F8FB3FC2877BC7900AEF925 /* TextScannerModel.swift in Sources */,
+				6F137BD528774FD600F3C4CA /* MainView.swift in Sources */,
+				6F8FB40D2877C72400AEF925 /* ButtonView.swift in Sources */,
 				6F137BB52875018400F3C4CA /* Persistence.swift in Sources */,
 				6F137BAF2875018400F3C4CA /* LearningMachineLearning.xcdatamodeld in Sources */,
+				6F8FB4062877BD1800AEF925 /* TextRecognition.swift in Sources */,
+				6F137BD028774F6B00F3C4CA /* TextScanner.swift in Sources */,
 				6F137BB32875018400F3C4CA /* ContentView.swift in Sources */,
+				6F137BD82877562000F3C4CA /* TextPreviewView.swift in Sources */,
+				6F8FB4102877CD2600AEF925 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,10 +410,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F8FB4042877BCF200AEF925 /* ScannerView.swift in Sources */,
 				6F137BB22875018400F3C4CA /* LearningMachineLearningApp.swift in Sources */,
+				6F8FB3FD2877BC8100AEF925 /* TextScannerModel.swift in Sources */,
+				6F137BD628774FD600F3C4CA /* MainView.swift in Sources */,
+				6F8FB40E2877C72400AEF925 /* ButtonView.swift in Sources */,
 				6F137BB62875018400F3C4CA /* Persistence.swift in Sources */,
 				6F137BB02875018400F3C4CA /* LearningMachineLearning.xcdatamodeld in Sources */,
+				6F8FB4072877BD1800AEF925 /* TextRecognition.swift in Sources */,
+				6F137BD128774F6B00F3C4CA /* TextScanner.swift in Sources */,
 				6F137BB42875018400F3C4CA /* ContentView.swift in Sources */,
+				6F137BD92877562000F3C4CA /* TextPreviewView.swift in Sources */,
+				6F8FB4112877CD2600AEF925 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +430,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F137BA22875018400F3C4CA /* Tests_iOSLaunchTests.swift in Sources */,
+				6F137BDA2877562000F3C4CA /* TextPreviewView.swift in Sources */,
 				6F137BA02875018400F3C4CA /* Tests_iOS.swift in Sources */,
+				6F8FB4002877BCD000AEF925 /* TextScanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +441,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F137BAE2875018400F3C4CA /* Tests_macOSLaunchTests.swift in Sources */,
+				6F137BDB2877562000F3C4CA /* TextPreviewView.swift in Sources */,
 				6F137BAC2875018400F3C4CA /* Tests_macOS.swift in Sources */,
+				6F8FB3FF2877BCD000AEF925 /* TextScanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +582,7 @@
 				DEVELOPMENT_TEAM = K328B98U3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs to access the camera in order to scan documents.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -508,6 +613,7 @@
 				DEVELOPMENT_TEAM = K328B98U3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs to access the camera in order to scan documents.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
